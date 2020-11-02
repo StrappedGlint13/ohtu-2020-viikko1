@@ -86,10 +86,7 @@ public class VarastoTest {
     }
     
     @Test
-    public void varastoAlustustusta() {
-        Varasto vara = new Varasto(10, 0);
-        assertEquals(10, vara.paljonkoMahtuu(), vertailuTarkkuus);
-        
+    public void varastoAlustustusta() {  
         Varasto vara2 = new Varasto(1, 2);
         assertEquals(1, vara2.getSaldo(), vertailuTarkkuus);
        
